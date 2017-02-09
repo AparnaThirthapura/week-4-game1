@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Crystal Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class = "container">
+		<div class = "row">
+			<div id = "cryCollector">
+			<h1>Crystal Collector</h1>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div id = "rulesText">
+			<h1>Rules</h1>
+				<p>
+					You will be given a random number at the start of the game.<br>
+
+					There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br>
+
+					You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+
+					The value of each crystal is hidden from you until you click on it.<br>
+
+					Each time when the game starts, the game will change the value of each crystal.
+
+				</p>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "col">
+				<div id = "targetScore">
+					<h3>Target Score</h3><br>
+					
+				</div>
+				
+			</div>
+			<div class = "col">
+				<div id = "winsAndLoses">
+				<h3>Score Board</h3><br>
+				<span id = "win">Wins: </span><br><br>
+				<span id = "loss">Losses: </span>
+					
+				</div>
+				
+			</div>
+		</div>
+
+		<div class = "row">
+	
+			<div class = "col">
+				<div class = "cryPic">
+					<img src="assets/images/aquamarine.jpg"  alt = "Crystal1" id = "crystal0">
+					<img src="assets/images/garnet.jpg" alt = "Crystal2" id = "crystal1">
+					<img src="assets/images/peridot.jpg" alt = "Crystal3" id = "crystal2">
+					<img src="assets/images/tanzanite.jpg" alt = "Crystal4" id = "crystal3">
+
+				</div>
+			</div>
+		</div>
+			
+
+		<div class = "row">
+			<div id = "totalScore">
+				<h3>Total Score</h3><br>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div id = "scoreUpdate">
+			<h3>Score Update</h3><br>
+				
+			</div>
+		</div>
+
+
+	</div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src = "assets/javascript/game.js"></script>
+
+
+</body>
+</html>

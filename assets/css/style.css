@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/image1.jpg");
+	background-size: cover;
+	font-family: "Ariel", "Helvetia Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;	
+}
+
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+}
+h4{
+	font-size: 15px;
+}
+
+#cryCollector{
+	background-color: orange;
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+#rulesText{
+	background-color: ivory;
+	width: 600px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+#targetScore{
+	float:left;
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	
+}
+
+#winsAndLoses{
+	float:left;
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	margin-left: 30px;
+
+
+}
+
+.cryPic img {
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+	width:100px;
+	height: 100px;
+	border:1px solid black;
+
+}
+
+#totalScore{
+	background-color: teal;
+	width: 300px;
+	height: 75px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#scoreUpdate{
+	background-color: violet;
+	width: 300px;
+	height: 75px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
